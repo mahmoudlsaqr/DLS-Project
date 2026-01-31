@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="900" height="600" version="1.1" viewBox="0 0 900 600" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+	.st0{fill:#FBE122;}
+	.st1{fill:#000000;}
+	.st2{fill:#046A38;}
+	.st3{fill:#2C5697;}
+	.st4{fill:#EE2737;}
+</style>
+<path id="ylw" class="st0" d="m0 600v-105l414-195-414-195v-105l450 285 450-285v105l-414 195 414 195v105l-450-285z"/><path id="bk" class="st1" d="M 900,0 450,285 0,0 Z"/><path id="grn" class="st2" d="m0 600 450-285 450 285z"/><path id="red" class="st4" d="m900 495-414-195 414-195z"/><path id="blu" class="st3" d="m0 105 414 195-414 195z"/>
+</svg>

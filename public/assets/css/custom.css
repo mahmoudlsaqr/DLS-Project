@@ -1,0 +1,137 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+button,
+label,
+input,
+th,
+td,
+div,
+.card-label,
+small {
+    font-family: 'Alexandria', serif !important;
+}
+
+i span {
+    font-family: inherit !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.fw-bold {
+    font-weight: 500 !important;
+}
+
+.dataTables_info {
+    margin-right: 1em;
+}
+.dataTables_info .select-info {
+    margin-right: 0.5em;
+    color: var(--bs-primary);
+}
+table.dataTable>thead>tr>td:not(.sorting_disabled), table.dataTable>thead>tr>th:not(.sorting_disabled) {
+    padding: 1em !important;
+}
+.table:not(.table-bordered) td:first-child, .table:not(.table-bordered) th:first-child, .table:not(.table-bordered) tr:first-child {
+    padding-right: 1em !important;
+}
+/* for the loader */
+.page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner-border-medical {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0.3rem solid #17C653; /* Medical green */
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.form-check-input {
+    background-color: #f8285a80;
+}
+.select2-container--bootstrap5 .select2-selection--multiple .select2-selection__rendered .select2-selection__choice .select2-selection__choice__remove {
+    left: 7px !important;
+}
+.select2-container--bootstrap5 .select2-selection--multiple.form-select-sm .select2-selection__choice {
+    padding: .2rem .5rem .2rem 1.5rem !important;
+}
+.menu-title {
+    font-size: 1rem !important;
+}
+.page-item.active .page-link {
+    border-radius: 0 !important;
+}
+.page-item {
+    border: 1px solid #DDD !important;
+}
+.dataTables_paginate {
+    margin: 1rem !important;
+}
+
+
+/* Bounce animation for the badge */
+@keyframes bounce {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(0, -5px); }
+    50% { transform: translate(0, 0); }
+    75% { transform: translate(0, -5px); }
+    100% { transform: translate(0, 0); }
+}
+
+/* FadeInUp effect when the number appears */
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+/* Add a subtle glow effect on hover for the icon */
+.btn:hover .ki-notification-on {
+    color: #ff5722;
+    transform: scale(1.2) rotate(360deg);
+    transition: all 0.3s ease;
+}
+
+/* Add scale up for badge when notifications count changes */
+@keyframes scaleUp {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Apply the animation when number changes */
+#notificationsCount {
+    animation: scaleUp 0.5s ease-out;
+}
+
+/* Smooth transition for all elements */
+.btn, .badge {
+    transition: all 0.3s ease;
+}
